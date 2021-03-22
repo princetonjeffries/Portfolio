@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* The gif used */
+  background-image: url("../images/backgroundtest3.gif");
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fronttext {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.452);
+}
+/*# sourceMappingURL=index.css.map */
