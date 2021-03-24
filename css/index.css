@@ -8,6 +8,7 @@
 }
 
 body {
+  overflow-x: hidden;
   /* The gif used */
   background-image: url("../images/backgroundsunset.gif");
   /* Full height */
@@ -27,13 +28,12 @@ body {
 
 .aboutme {
   width: 95%;
-  height: 92vh;
+  height: 100vh;
   color: white;
   background: rgba(0, 0, 0, 0.61);
 }
 
 .profile {
-  margin-top: 10px;
   float: right;
 }
 /*# sourceMappingURL=index.css.map */

@@ -5,7 +5,8 @@
 .navbar{
     background:rgba(41, 41, 41, 0.26);
 }
-body{   
+body{
+    overflow-x:hidden;
     /* The gif used */
     background-image: url("../images/backgroundsunset.gif");
 
@@ -24,11 +25,10 @@ body{
 }
 .aboutme{
     width:95%;
-    height:92vh;
+    height:100vh;
     color:white;
     background: rgba(0, 0, 0, 0.61);
 }
 .profile{
-    margin-top:10px;
     float:right;
 }
