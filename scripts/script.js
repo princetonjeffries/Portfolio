@@ -1,8 +1,7 @@
-function changeTheme(){
-
-}
 var i = 0;
-$(document).ready(function(){
+$(function(){
+    $('.fronttext').fadeTo(1000, 1);
+    $('.aboutme').fadeTo(500, 1);
     $("#themeBtn").click(function(){
         
         // Change src attribute of image
