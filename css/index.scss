@@ -11,21 +11,15 @@ html,body{
 body{
     overflow-x:hidden;
     /* The gif used */
-    background-image: url("../images/backgroundsunset.gif");
-
+    background-color: rgb(85, 55, 55);
     /* Full height */
     width:100vw;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
 }
 .fronttext{
     opacity:0%;
     width:100%;
     color:white;
-    background: rgba(0, 0, 0, 0.61);
+    /*background: rgba(0, 0, 0, 0.61); */
 }
 .aboutme{
     opacity:0%;
