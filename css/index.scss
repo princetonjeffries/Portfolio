@@ -8,10 +8,13 @@
 html,body{
     height:100%;
 }
+
 body{
     overflow-x:hidden;
     /* The gif used */
-    background-color: rgb(85, 55, 55);
+    /*background-color: rgb(85, 55, 55);*/
+    background: url(../images/citynight.jpg) no-repeat center center fixed;
+    background-size:cover;
     /* Full height */
     width:100vw;
 }
@@ -19,7 +22,7 @@ body{
     opacity:0%;
     width:100%;
     color:white;
-    /*background: rgba(0, 0, 0, 0.61); */
+    background: rgba(0, 0, 0, 0.61); 
 }
 #web1text{
     position:absolute;
@@ -137,7 +140,7 @@ img {
     width:95%;
     min-height: 94vh;
     color:white;
-    
+    background: rgba(0, 0, 0, 0.61); 
 }
 .profile{
     float:right;
