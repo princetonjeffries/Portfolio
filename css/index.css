@@ -19,6 +19,12 @@ body {
   background-size: cover;
   /* Full height */
   width: 100vw;
+  font-family: 'titillium';
+}
+
+@font-face {
+  src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+  font-family: 'titillium';
 }
 
 .fronttext {
@@ -34,6 +40,10 @@ body {
   left: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.navbar {
+  background-color: #161616 !important;
 }
 
 .title {
