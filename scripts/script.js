@@ -1,6 +1,5 @@
 var i = 0;
 $(function(){
-    $('body').css("background-image", sessionStorage.getItem('background'));
     $('#web1').hover(function(){
         $('this').css('opacity', '10%');
     })
@@ -25,46 +24,46 @@ $(function(){
 document.addEventListener('DOMContentLoaded', () => {
     anime({
         targets:'.intro',
-        translateX: [-400,0],
+        translateX: [-400,0], //slide introduction from left
         opacity:[0,1],
         duration:1000,
         delay:500,
         easing:'easeOutExpo',
     });
     anime({
-        targets: '.fronttext',
+        targets: '.fronttext', //fade home page text in
         opacity: 1,
         duration: 5000,
     });
     anime({
         targets:'.edu',
         delay:500,
-        opacity:[0,1],
+        opacity:[0,1], //slide education
         translateX:[-200,0],
         easing:'easeOutExpo'
     });
     anime({
         targets:'.qual',
-        delay:500,
+        delay:500, //slide qualifications
         opacity:[0,1],
         translateX:[200,0],
         easing:'easeOutExpo'
     });
     anime({
         targets:'.vol',
-        delay:1000,
+        delay:1000, //slide volunteering
         opacity:[0,1],
         translateZ:[200,0],
         easing:'easeOutExpo'
     });
 })
 var textWrapper = document.querySelector('.ml12');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>"); //cover every letter with a span in order to animate.
 var textWrapper1 = document.querySelector('.ml13');
 textWrapper1.innerHTML = textWrapper1.textContent.replace(/\S/g, "<span class='letter1'>$&</span>");
 var textWrapper2 = document.querySelector('.ml14');
 textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter2'>$&</span>");
-anime.timeline()
+anime.timeline() //timeline sets up actions to go one after another.
   .add({
     targets: '.ml12 .letter',
     translateX: [40,0],
